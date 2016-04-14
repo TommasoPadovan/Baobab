@@ -1,7 +1,8 @@
 # Baobab
 
-Piccolo insieme di script python che stimano l'angolo di occipital bending partendo da una immagine 3D NIFTI.
+Piccolo insieme di script Python che stimano l'angolo di occipital bending partendo da una immagine 3D NIFTI.  
 
+Small set of Python scripts that estimate occipital bending from a NIFTI 3D image.
 
 this program has the following dependencies:  
 PyNifti --- [Installation](http://niftilib.sourceforge.net/pynifti/installation.html)  
@@ -11,12 +12,10 @@ PIL --- [Installation](https://pypi.python.org/pypi/Pillow/2.2.1)
 
 under linux environement this should satisfy all the dependencies:
 
-`apt-get update  
-apt-get install python-nifti`
-
-`pip install xlwt`
-
-`pip install Pillow`
+`apt-get update`  
+`apt-get install python-nifti`  
+`pip install xlwt`  
+`pip install Pillow`  
 
 
-for a fast example try `baobab_image/baobab-image.py`
+For a fast example try `baobab_image/baobab-image.py`
